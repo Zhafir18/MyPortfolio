@@ -12,16 +12,16 @@ function Navbars() {
         <Container>
           <Navbar.Toggle />
           <Navbar.Collapse className="nav justify-content-end mt-3 me-5">
-            <Link to="#" className="me-5">
+            <Link to="#" className="link me-5">
               Home
             </Link>
-            <Link to="#About" className="me-5">
+            <Link to="#About" className="link me-5">
               About
             </Link>
-            <Link to="#Project" className="me-5">
+            <Link to="#Project" className="link me-5">
               Project
             </Link>
-            <Link to="#Contact" className="me-5">
+            <Link to="#Contact" className="link me-5">
               Get in Touch
             </Link>
             <img src="/Zhafir-Logo.png" width="50" height="50" className="d-inline-block align-top" alt="React Bootstrap logo" />

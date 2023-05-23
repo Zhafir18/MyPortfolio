@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Typed from 'typed.js';
 
 function Home() {
+  const el = React.useRef(null);
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['Muhammad Zhafir Ghiffari'],
+      startDelay: 300,
+      typeSpeed: 150,
+      // backDelay: 150,
+      // backSpeed: 150,
+      smartBackspace: true,
+      showCursor: false,
+      loop: true,
+    });
+  });
+
   return (
     <div className="home">
       <Container>
         <div className="row mt-5">
           <div className="col-8">
-            <h1 className="hello">Hello, i'm Muhammad Zhafir Ghiffari</h1>
+            <h1 className="hello">
+              Hello, i'm <span ref={el}></span>
+            </h1>
             <h1 className="hello">I'm a web developer</h1>
           </div>
           <div className="col-4">

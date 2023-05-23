@@ -17,13 +17,13 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
   }, []);
 
   return (
     <div className="App">
       {loading ? (
-        <RingLoader size={50} color={'#36d7b7'} loading={loading} />
+        <RingLoader size={50} color={'#36d7b7'} loading={loading} className="loading" />
       ) : (
         <>
           <Navbars />

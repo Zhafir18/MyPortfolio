@@ -7,12 +7,8 @@
   font-family: 'Roboto Mono', monospace;
 }
 
-/* .link {
-  color: #ffff   !important;
-} */
-
 .navbar {
-  background-color: rgb(128, 255, 243);
+  background-color: ffff;
 }
 
 .nav {
@@ -26,10 +22,6 @@
   /* color: #0000 !important; */
 }
 
-/* Link:hover {
-  background-color: yellow;
-} */
-
 .home {
   height: 800px;
   width: 100%;
@@ -41,7 +33,7 @@
 }
 
 .Playlist {
-  height: 300px;
+  height: 400px;
 }
 
 .Footer {
@@ -59,7 +51,7 @@ h1 {
   font-size: 30px;
   line-height: 53px;
   text-align: justify;
-  text-decoration-line: line-through;
+  /* text-decoration-line: line-through; */
 }
 
 h2 {
@@ -70,7 +62,7 @@ h2 {
   /* identical to box height */
 
   text-align: justify;
-  text-decoration-line: line-through;
+  /* text-decoration-line: line-through; */
 }
 
 h5 {
@@ -85,7 +77,7 @@ p {
   /* identical to box height */
 
   text-align: justify;
-  text-decoration-line: line-through;
+  /* text-decoration-line: line-through; */
 }
 
 .hello {
@@ -94,7 +86,7 @@ p {
   font-size: 40px;
   line-height: 53px;
   text-align: justify;
-  text-decoration-line: line-through;
+  /* text-decoration-line: line-through; */
 }
 
 /* .image {
@@ -114,4 +106,34 @@ p {
 
 .profil {
   border-radius: 50%;
+}
+
+/* .loading {
+  justify-content: center;
+  align-items: center;
+} */
+
+.iframe {
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover {
+  color: #9cb3b1;
+}
+
+.cv {
+  background-color: white;
+  border-raidus: 10px;
+}
+
+.a {
+  text-decoration: none;
+  color: #000;
 }
