@@ -30,8 +30,7 @@ function Contact() {
                 <Form.Control as="textarea" rows={5} />
               </Form.Group>
             </Form>
-          </div>
-          <Button className="w-100" variant="outline-dark">
+            <Button className="w-100" variant="outline-dark">
             Sent{' '}
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
@@ -39,6 +38,7 @@ function Contact() {
               </svg>
             </span>
           </Button>
+          </div>
         </div>
         <div className="Socmed d-flex justify-content-center mt-5">
           <div className="row">
