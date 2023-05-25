@@ -70,7 +70,7 @@ function About() {
           <div className="col-6" data-aos="fade-left">
             <div className="justify-content-center">
               <h1>Curriculum Vitae</h1>
-              <button className="cv w-100" variant="outline-dark" onClick={onButtonClick}>
+              <button className="cv btn btn-outline-dark w-100" variant="outline-dark" onClick={onButtonClick}>
                 Download CV
               </button>
             </div>
@@ -79,8 +79,7 @@ function About() {
         <div className="row mt-5">
           <h1>Experience</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            - June 2021 - August 2021 Internship at CSEAS Indonesia as an IT Support <br></br> - January 2022 - February 2023 Internship at Sekretariat Jenderal DPR-RI as a Web Developer (Front-End Developer)
           </p>
         </div>
       </Container>

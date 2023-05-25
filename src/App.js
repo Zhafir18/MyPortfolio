@@ -17,13 +17,24 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
   }, []);
 
   return (
     <div className="App">
       {loading ? (
-        <RingLoader size={50} color={'#36d7b7'} loading={loading} className="loading" />
+        <RingLoader
+          size={100}
+          color={'#36d7b7'}
+          cssOverride={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+          }}
+          loading={loading}
+          className="loading"
+        />
       ) : (
         <>
           <Navbars />

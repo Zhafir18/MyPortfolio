@@ -15,14 +15,14 @@ function Project() {
     });
   }, []);
   return (
-    <div className="Project mt-5" id="Project">
+    <div className="Project" id="Project">
       <Container>
         <div className="d-flex justify-content-end mt-5">
           <h1 className="judul">Project</h1>
         </div>
         <div className="row d-flex justify-content-end" data-aos="fade-left">
           <div className="col-6">
-            <Card>
+            <Card className="shadow-4">
               <Card.Img variant="top" src="perbara.jpg" />
               <Card.Body>
                 <Card.Title>Perbara</Card.Title>
